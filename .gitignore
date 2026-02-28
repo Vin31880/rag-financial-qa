@@ -1,0 +1,9 @@
+echo "venv/
+chroma_db/
+__pycache__/
+*.pyc
+.env
+data/" > .gitignore
+git add .gitignore
+git commit -m "chore: add gitignore"
+git push
